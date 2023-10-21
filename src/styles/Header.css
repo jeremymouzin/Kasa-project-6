@@ -1,0 +1,98 @@
+.nav-header {
+    display : flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-img
+{
+margin-right : auto;
+}
+
+#nav-logo{
+    margin-right: auto;
+    margin-left: 5rem;
+    width: 10rem;
+    height: 45px;
+    padding-left : 0rem;
+    object-fit: cover;
+}
+
+.nav-link {
+    padding: 2rem;
+     padding-top: 41px;
+     margin-right: 3rem;
+    
+}
+
+.sign 
+{   font-weight: 500;
+    color:#FF6060;
+    font-size: 24px ;
+    text-decoration: none;
+    margin-right : 2rem;
+     
+}
+
+.sign-up {
+    font-weight: 500;
+    color:#FF6060;
+    font-size: 24px ;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+
+ .sign:hover
+{   border-bottom: red solid 1px;}
+
+.sign-up:hover
+{   border-bottom: red solid 1px;}
+
+/***************RESPONSIVE-****************************/
+
+@media (max-width: 600px) {
+
+    .nav-link {
+        padding: 2rem;
+         padding-top: 41px;
+         margin-right: 0rem;
+         
+    }
+
+    #nav-logo{
+        margin-right: 0.5rem;
+        margin-left: 5rem;
+        width: 5rem;
+        height: 25px;
+        padding-left : 0rem;
+        padding-top : 0.5rem;
+        object-fit: cover;
+    }
+    
+    .sign 
+    {   font-weight: 500;
+        color:#FF6060;
+        font-size: 15px ;
+        text-transform: uppercase;
+        margin-right : 2rem;
+       
+        
+    }
+    
+    .sign-up {
+        font-weight: 500;
+        color:#FF6060;
+        font-size: 15px ;
+        text-transform: uppercase;
+        white-space: nowrap;
+     
+    }
+    
+     .sign:hover
+    {   border-bottom: red solid 1px;}
+    
+    .sign-up:hover
+    {   border-bottom: red solid 1px;}
+     
+}
