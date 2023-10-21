@@ -11,7 +11,7 @@ function Header() {
         </div>
         <div className='nav-link'>
         <Link className='sign' to={''}>Accueil</Link>
-        <Link className = 'sign-up' to={''}>A propos</Link> 
+        <Link className = 'sign-up' to={''}>A Propos</Link> 
         </div>
         </nav> 
     )
