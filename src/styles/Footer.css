@@ -1,0 +1,41 @@
+.footer-nav {
+    background-color: black;
+    padding : 1.5rem;
+    position: fixed;
+    bottom:0;
+    width : 100%;
+}
+
+.footer-block img {
+    display: block;
+    margin-left : auto;
+    margin-right : auto;
+}
+
+.footer-credit {
+    color : white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    
+}
+
+/***************RESPONSIVE-****************************/
+
+@media (max-width: 800px) {
+
+    .footer-credit {
+       font-size : 15px;
+       margin-right : 2rem;
+       margin-top : 2rem;
+         
+    }
+
+    .footer-block img {
+        display: block;
+       padding-right : 3rem;
+        margin-right : auto;
+    }
+
+ 
+}

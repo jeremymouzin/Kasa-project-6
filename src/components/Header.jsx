@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo from '../images/logo.jpg'
 import '../styles/Header.css'
 
@@ -10,14 +10,11 @@ function Header() {
         <img src={logo} alt='kasa' id='nav-logo' />
         </div>
         <div className='nav-link'>
-        <Link className='sign' to={''}>Accueil</Link>
-        <Link className = 'sign-up' to={''}>A Propos</Link> 
+        <NavLink className='sign' to='/'>Accueil</NavLink>
+        <NavLink className = 'sign-up' to='/about'>A Propos</NavLink> 
         </div>
         </nav> 
     )
-    
-    
-
 }
 
 export default Header 
