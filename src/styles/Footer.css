@@ -38,24 +38,4 @@
          
     }
 
-
- 
-}/***************RESPONSIVE-****************************/
-
-@media (max-width: 800px) {
-
-    .footer__block img {
-        display: block;
-       padding-right : 3rem;
-        margin-right : auto;
-    }
-
-
-    .footer__credit {
-       font-size : 15px;
-       margin-right : 2rem;
-       margin-top : 2rem;
-         
-    }
-
 }
