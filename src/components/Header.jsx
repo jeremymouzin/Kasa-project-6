@@ -5,13 +5,13 @@ import '../styles/Header.css'
 function Header() {
 
     return (
-        <nav className='nav-header'>
-        <div className='nav-img'>
-        <img src={logo} alt='kasa' id='nav-logo' />
+        <nav className='nav__header'>
+        <div className='nav__img'>
+        <img src={logo} alt='kasa' id='nav__logo' />
         </div>
-        <div className='nav-link'>
+        <div className='nav__link'>
         <NavLink className='sign' to='/'>Accueil</NavLink>
-        <NavLink className = 'sign-up' to='/about'>A Propos</NavLink> 
+        <NavLink className = 'sign__up' to='/about'>A Propos</NavLink> 
         </div>
         </nav> 
     )

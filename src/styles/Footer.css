@@ -1,4 +1,4 @@
-.footer-nav {
+.footer__nav {
     background-color: black;
     padding : 1.5rem;
     position: fixed;
@@ -6,13 +6,13 @@
     width : 100%;
 }
 
-.footer-block img {
+.footer__block img {
     display: block;
     margin-left : auto;
     margin-right : auto;
 }
 
-.footer-credit {
+.footer__credit {
     color : white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -24,18 +24,38 @@
 
 @media (max-width: 800px) {
 
-    .footer-credit {
+    .footer__block img {
+        display: block;
+       padding-right : 3rem;
+        margin-right : auto;
+    }
+
+
+    .footer__credit {
        font-size : 15px;
        margin-right : 2rem;
        margin-top : 2rem;
          
     }
 
-    .footer-block img {
+
+ 
+}/***************RESPONSIVE-****************************/
+
+@media (max-width: 800px) {
+
+    .footer__block img {
         display: block;
        padding-right : 3rem;
         margin-right : auto;
     }
 
- 
+
+    .footer__credit {
+       font-size : 15px;
+       margin-right : 2rem;
+       margin-top : 2rem;
+         
+    }
+
 }
