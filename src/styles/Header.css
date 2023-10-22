@@ -50,7 +50,7 @@ margin-right : auto;
 
 /***************RESPONSIVE-****************************/
 
-@media (max-width: 600px) {
+@media (max-width: 930px) {
 
     .nav__link {
         padding: 2rem;
