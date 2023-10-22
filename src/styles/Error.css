@@ -71,6 +71,19 @@
   padding-top : 10rem;
  
 }
+}
 
+@media (max-width: 300px) 
+
+{
+    .error__link {
+        color :  #FF6060;
+        font-family: 'Montserrat', sans-serif;
+        font-size : 17px;
+        font-weight: 500;
+      display : flex;
+      padding-top : 10rem;
 
 }
+}
+
