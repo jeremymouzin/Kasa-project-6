@@ -1,5 +1,14 @@
 .main {
     border : 6px solid black;
-    margin:3rem 5rem;
-    max-width: 88vw;
+    margin:3rem 2rem;
+    padding: 1rem 3.7rem;
+    max-width: 95vw;
+}
+
+@media (max-width: 450px) {
+
+    .main {
+        margin : 0rem 0rem;
+        padding: 1rem 1rem;
+    }
 }

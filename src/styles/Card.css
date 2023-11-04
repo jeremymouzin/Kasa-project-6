@@ -5,3 +5,11 @@
     border-radius: 2rem;
     width: 100%;
 }
+
+@media (max-width: 750px) {
+
+    .Card {
+        margin : 2rem 0rem;
+        width : 100%
+    }
+}
