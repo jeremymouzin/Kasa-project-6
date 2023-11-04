@@ -3,39 +3,40 @@
     --font-page :'Montserrat', sans-serif;
 }
 
+.header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 68px;
+    margin : 40px 100px 63px 100px;
+
+}
+
 .nav__header {
     display : flex;
-    align-items: center;
-    justify-content: flex-end;
     font-family: var(--font-page);
+    white-space: nowrap;
 }
 
-.nav__img {
-margin-right : auto;
-}
-
-#nav__logo{
-    margin-right: auto;
-    margin-left: 5rem;
-    width: 10rem;
-    height: 45px;
-    padding-left : 0rem;
-    object-fit: cover;
+#header__logo{
+    max-height: 100%;
 }
 
 .nav__link {
-    padding: 2rem;
-     padding-top: 41px;
-     margin-right: 3rem;
-    
+    display : flex;  
 }
+
+.nav__link li {
+    list-style-type: none;
+}
+
 
 .sign 
 {   font-weight: 500;
     color: var(--color-page);
     font-size: 24px ;
     text-decoration: none;
-    margin-right : 2rem;
+    margin-right: 1rem;
      
 }
 
@@ -44,7 +45,6 @@ margin-right : auto;
     color:var(--color-page);
     font-size: 24px ;
     text-decoration: none;
-    flex-wrap: nowrap;
 }
 
  .sign:hover
@@ -55,92 +55,25 @@ margin-right : auto;
 
 /***************RESPONSIVE-****************************/
 
-@media (max-width: 930px) {
+@media (max-width: 792px) {
 
-    .nav__link {
-        padding: 2rem;
-         padding-top: 41px;
-         margin-right: 0rem;
-         
-    }
-
-    #nav__logo{
-        margin-right: 2.5rem;
-        margin-left: 5rem;
-        width: 5rem;
-        height: 23px;
-        padding-left : 0rem;
-        padding-top : 0.3rem;
-        object-fit: cover;
-    }
-    
-    .sign 
-    {   font-weight: 500;
-        color:var(--color-page);
-        font-size: 15px ;
-        text-transform: uppercase;
-        margin-right : 2rem;
-       
-        
-    }
-    
-    .sign__up {
-        font-weight: 500;
-        color:var(--color-page);
-        font-size: 15px ;
-        text-transform: uppercase;
-        white-space: nowrap;
-     
-    }
-    
-     .sign:hover
-    {   border-bottom: var(--color-page) solid 1px;}
-    
-    .sign__up:hover
-    {   border-bottom: var(--color-page) solid 1px;}
-     
-}
-
-@media (max-width: 360px) {
-    #nav__logo{
-        margin-right:1.5rem;
-        margin-left: 5rem;
-        width: 5rem;
-        height: 23px;
-        padding-left : 0rem;
-        padding-top : 0.3rem;
-        object-fit: cover;
-    }
-}
-
-
-@media (max-width: 280px) {
-    #nav__logo{
-        margin-right:0rem;
-        width: 5rem;
-        height: 23px;
-        padding-left : 0rem;
-        padding-top : 0.3rem;
-        object-fit: cover;
+    .header {
+        height: 47px;
+        margin-top: 20px;
+        margin-left : 20px;
+        margin-right : 20px;
     }
 
     .sign 
-    {   font-weight: 500;
-        color: var(--color-page);
-        font-size: 10px ;
-        text-transform: uppercase;
-        margin-right : 1rem;
-    }
-        
-        
-        .sign__up {
-            font-weight: 500;
-            color:var(--color-page);
-            font-size: 10px;
-            text-transform: uppercase;
-            white-space: nowrap;
-         
-        }
-  
+{  font-size: 12px ;
+    margin-right : 1rem;
 }
+
+.sign__up {
+    font-size: 12px  
+}
+}
+
+
+
 

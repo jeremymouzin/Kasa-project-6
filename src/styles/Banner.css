@@ -1,0 +1,50 @@
+:root {
+    --font-page :'Montserrat', sans-serif;
+}
+
+.banner {
+  background-image: linear-gradient(135deg, 
+  rgb(71, 71, 71),30%, transparent), url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  max-width: 88vw;
+  min-height: 225px;
+  margin: auto;
+  border-radius: 2rem;
+  display: grid;
+  place-items: center;
+  color: #F6F6F6;
+  font-weight: 200;
+  font-size: 31px;
+  font-family: var(--font-page);
+}
+
+.banner::before {
+   position: absolute;
+   content: "";
+   inset: 0;
+   border-radius: 2rem;
+}
+
+/***************RESPONSIVE-****************************/
+@media (max-width: 380px) {
+    
+    .banner {
+    font-size: 15px;
+    min-height: auto;
+    max-width: 92vw;
+    border-radius: 1rem;
+    font-weight: 100;
+    background-position: 15% 40%;
+}
+  
+  span {
+          text-wrap: nowrap;
+  }
+  
+  h2 {
+      margin-left: 1rem;
+  }
+   }
+
+

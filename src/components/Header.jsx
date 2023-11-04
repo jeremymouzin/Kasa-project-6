@@ -5,15 +5,23 @@ import '../styles/Header.css'
 function Header() {
 
     return (
-        <nav className='nav__header'>
-        <div className='nav__img'>
-        <img src={logo} alt='kasa' id='nav__logo' />
-        </div>
-        <div className='nav__link'>
-        <NavLink className='sign' to='/'>Accueil</NavLink>
-        <NavLink className = 'sign__up' to='/about'>A Propos</NavLink> 
-        </div>
-        </nav> 
+<div className="header">
+  <img src={logo} alt="kasa" id="header__logo" />
+
+  <nav className="nav__header">
+    <ul className="nav__link">
+        
+      <li><NavLink className="sign" to="/"> 
+        Accueil 
+        </NavLink></li> 
+
+     <li><NavLink className="sign__up" to="/about">
+        A Propos
+      </NavLink></li> 
+    </ul>
+  </nav>
+</div>
+
     )
 }
 
