@@ -3,7 +3,6 @@
 .footer__block {
     background-color: black;
     padding : 1.5rem;
-    position: fixed;
     bottom:0;
     width : 100%;
 }

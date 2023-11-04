@@ -1,5 +1,3 @@
-
-// import banner from '../images/banner.png'
 import '../styles/Banner.css'
 
 function Banner() {
