@@ -2,11 +2,15 @@
 .Card {
     display: grid;
     grid-template-columns: 350px 350px 350px;
-    column-gap: 12px;
-    row-gap: 40px;
-    border-radius: 2rem;
-    padding-left : 15rem;
+    column-gap: 65px;
+    row-gap: 15px;
     margin-top : 2rem;
+    border-radius: 2rem;
+    padding-bottom : 2rem;
+    align-items: center;
+    justify-items: center;
+    /* padding-left : 15rem; */
+    background-color: #f6f6f6;
 }
 
 @media (max-width: 750px) {
@@ -14,5 +18,11 @@
     .Card {
         margin : 2rem 0rem;
         width : 100%
+    }
+}
+
+@media (min-width: 1900px) {
+    .Card {
+      padding-left : 15rem;
     }
 }

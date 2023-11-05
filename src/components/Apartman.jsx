@@ -2,7 +2,9 @@ import '../styles/Apartman.css'
 
 function Apartman() {
     return (
-        <div className='Apartman'>Titre de la location</div>
+        <div className='Apartman'>
+            <p>Titre de la<br/> location</p>
+            </div>
     )
 }
 
