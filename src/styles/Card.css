@@ -1,9 +1,12 @@
+
 .Card {
-    margin : 3rem 0rem;
-    height: 30rem;
-    background-color: bisque;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 12px;
+    row-gap: 40px;
     border-radius: 2rem;
-    width: 100%;
+    padding-left : 15rem;
+    margin-top : 2rem;
 }
 
 @media (max-width: 750px) {

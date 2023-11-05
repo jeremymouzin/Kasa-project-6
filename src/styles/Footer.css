@@ -1,10 +1,10 @@
 
-
 .footer__block {
     background-color: black;
     padding : 1.5rem;
     bottom:0;
     width : 100%;
+    /* position : fixed; */
 }
 
 .footer__img img {
