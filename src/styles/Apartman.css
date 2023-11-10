@@ -1,17 +1,18 @@
 .Apartman {
-    background-image: linear-gradient(to bottom, #fe6565, #e65d5d, #ce5555, #b64d4d, #9f4545);
-     margin-top: 2rem;
-      margin-left: 8rem; 
-      padding: 10rem 1rem; 
+    background-image: linear-gradient(to bottom, #fe6565, #e65d5d, #ce5555, #b64d4d, #9f4545);  
       width: 340px; 
       height: 340px; 
       border-radius: 1rem; 
       color : rgba(255, 255, 255, 1);
       font-size : 18px;
       font-family: 'Montserrat', sans-serif;
+    position : relative;
 }
 
 .Apartman p {
-    margin-right : 5rem;
-    margin-top : 7rem;
+    margin : 0;
+    position : absolute;
+    bottom : 20px;
+    left : 20px;
+    right : 20px;
 }

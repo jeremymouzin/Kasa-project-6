@@ -1,15 +1,15 @@
 
 .Card {
     display: grid;
-    grid-template-columns: 350px 350px 350px;
-    column-gap: 65px;
-    row-gap: 15px;
-    margin-top : 2rem;
+    grid-template-columns: repeat(3,340px);
+    column-gap: 60px;
+    row-gap: 50px;
+    margin-top : 43px;
     border-radius: 2rem;
-    padding-bottom : 2rem;
+    padding: 56px 50px;
     align-items: center;
     justify-items: center;
-    /* padding-left : 15rem; */
+    justify-content : center;
     background-color: #f6f6f6;
 }
 
