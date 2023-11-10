@@ -26,7 +26,11 @@
 
 /***************RESPONSIVE-****************************/
 
-@media (max-width: 800px) {
+@media (max-width: 792px) {
+
+   .footer__block {
+        padding-bottom : 62px;
+   }
 
     .footer__img img {
         display: block;
@@ -34,8 +38,8 @@
 
 
     .footer__credit {
-       font-size : 15px;
-       margin-top : 2rem;
+       font-size : 12px;
+       margin-top : 1rem;
          
     }
 

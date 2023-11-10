@@ -62,15 +62,18 @@
         margin-top: 20px;
         margin-left : 20px;
         margin-right : 20px;
+        margin-bottom : 16px; 
     }
 
     .sign 
 {  font-size: 12px ;
     margin-right : 10px;
+ text-transform : uppercase;
 }
 
 .sign__up {
-    font-size: 12px  
+    font-size: 12px;
+     text-transform : uppercase;
 }
 }
 
