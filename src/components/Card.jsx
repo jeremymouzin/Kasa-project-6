@@ -1,5 +1,5 @@
 import '../styles/Card.css'
-import Apartman from './Apartman'
+import Apartman from './Apartment'
 
 
 function Card() {

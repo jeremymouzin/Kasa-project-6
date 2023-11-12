@@ -1,4 +1,4 @@
-.Apartman {
+.Apartment {
     background-image: linear-gradient(to bottom, #fe6565, #e65d5d, #ce5555, #b64d4d, #9f4545);  
       width: 340px; 
       height: 340px; 
@@ -9,7 +9,7 @@
     position : relative;
 }
 
-.Apartman p {
+.Apartment p {
     margin : 0;
     position : absolute;
     bottom : 20px;
