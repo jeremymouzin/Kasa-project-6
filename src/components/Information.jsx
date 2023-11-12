@@ -25,11 +25,11 @@ function Information()
                 </div>
 
                 <div className='container-description__stars'>
-                    <div ><i class="fas fa-star"></i></div> 
-                    <div><i class="fas fa-star"></i></div>
-                     <div><i class="fas fa-star"></i></div>
-                     <div><i class="fas fa-star grey"></i></div>
-                     <div><i class="fas fa-star grey"></i></div>
+                    <div ><i className="fas fa-star"></i></div> 
+                    <div><i className="fas fa-star"></i></div>
+                     <div><i className="fas fa-star"></i></div>
+                     <div><i className="fas fa-star grey"></i></div>
+                     <div><i className="fas fa-star grey"></i></div>
                 </div>
 
             </div>
