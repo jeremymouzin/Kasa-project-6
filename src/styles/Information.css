@@ -1,18 +1,22 @@
+.container {
+    display : flex;
+    justify-content: space-between;
+}
+
 .container__information {
-    border: 3px solid rgb(0, 255, 13);
-    margin : 30px 100px;
-    width : 100%;
+    /* border: 3px solid rgb(0, 255, 13); */
+    margin : 0px 100px;
+    width : 45%;
 }
 
 .container__information h1 {
-    border: 3px solid rgb(0, 255, 13);
+    /* border: 3px solid rgb(0, 255, 13); */
     margin : 0;
     color: #FF6060;
-font-family: 'Montserrat', sans serif;
-font-size: 36px;
-word-spacing:1px;
-font-weight: 500;
-line-height: 142.6%;
+    font-family: 'Montserrat', sans serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 142.6%;
 }
 
 .container__information h3 {
@@ -23,24 +27,75 @@ font-size: 18px;
 }
 
 .container__content {
-    display : flex;
-    justify-content: flex-start;
     gap : 10px;
-    border: 3px solid blue;
-    margin-top : 2rem;
-
+    /* border: 3px solid blue; */
+    display:flex;
 
 }
+
+
 
 .container__content p {
     width: 115px;
     height: 25px;
     border-radius: 10px;
     background: #FF6060;
-    font-family: 'Montserrat', sans serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color : white;
     display : flex;
     justify-content: center;
     align-items: center;
+    margin-top : 2rem;
+}
+
+
+.container__description {
+    margin-right : 100px;
+}
+
+.container__description__profil {
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid blue; */
+}
+
+
+.profil {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    background: #C4C4C4;
+    -webkit-border-radius: 64px;
+    -moz-border-radius: 64px;
+    -ms-border-radius: 64px;
+    -o-border-radius: 64px;
+}
+
+.container__description__profil p {
+    color: #FF6060;
+font-family: 'Montserrat', sans serif;
+text-align: right;
+font-size: 18px;
+font-weight: 500;
+line-height: 142.6%;
+margin-top : 3.5px;
+margin-left: 1.3rem;
+}
+
+.container-description__stars {
+    font-size: 25px;
+    gap : 0.8rem;
+    display : flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.container-description__stars .fas {
+    color : #FF6060;
+} 
+
+.container-description__stars .grey {
+    color : #E3E3E3;
+    
 }

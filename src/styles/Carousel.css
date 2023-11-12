@@ -7,7 +7,7 @@
    height: 415px;
    margin-left : 100px;
    margin-right :100px;
-   margin-bottom : 3rem;
+   margin-bottom : 2rem;
    position : relative;
 }
 
@@ -34,7 +34,7 @@
 .carousel-content__pages {
    display: inline-block;
    position : absolute;
-   left : 50%;
+   left : 48.3%;
    bottom : 2%;
    color: #FFFF;
    text-align: center;

@@ -6,6 +6,7 @@ function Information()
 {
         return (
             <div className='container'>
+
              <div className="container__information">
             <h1>Cozy loft on the Canal Saint-Martin</h1>
             <h3>Paris, Île-de-France</h3>
@@ -15,10 +16,24 @@ function Information()
             <p>Canal</p>
             <p>Paris 10</p>
             </div>
+            </div>
             
+            <div className='container__description'>
+                <div className='container__description__profil'>
+                <p>Alexandre<br/>Dumas</p>
+                <div className='profil'></div>
+                </div>
 
-             </div>
+                <div className='container-description__stars'>
+                    <div ><i class="fas fa-star"></i></div> 
+                    <div><i class="fas fa-star"></i></div>
+                     <div><i class="fas fa-star"></i></div>
+                     <div><i class="fas fa-star grey"></i></div>
+                     <div><i class="fas fa-star grey"></i></div>
+                </div>
 
+            </div>
+ 
             </div>
         )
 
