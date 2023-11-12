@@ -17,26 +17,18 @@
    transform:translateY(-55%);
    height: 85px;
    margin-right: 0.8rem;
-   margin-left: 1rem;
-   width: 62px;
+   margin-left: 1.3rem;
+   width: 55px;
 }
 
 .carousel-content .right {
    right:0;
 }
 
-.slide i {
-   font-size: 70px;
-   display : flex;
-   justify-content: center;
-   align-items: center;
-   color : white;
-}
-
-.slide i:hover {
+.slide img:hover {
   cursor: pointer;
   transform: scale(1.2);
-  transition: all 0.8s ease;
+  transition: all 0.8s ease-in-out;
 }
 
 .carousel-content__pages {
@@ -44,7 +36,7 @@
    position : absolute;
    left : 50%;
    bottom : 2%;
-   color: #FFF;
+   color: #FFFF;
    text-align: center;
   font-family: 'Montserrat', sans-serif;
    font-size: 18px;
@@ -63,10 +55,6 @@
       margin-left: 20px;
       margin-right:20px;
       margin-top: 27px;
-      -webkit-border-radius: 10px ;
-      -moz-border-radius: 10px ;
-      -ms-border-radius: 10px ;
-      -o-border-radius: 10px ;
 }
 
 .carousel-content .slide {
@@ -75,19 +63,24 @@
  transform:translateY(-45%);
 }
 
-.slide i {
-   font-size: 21px;
+img {
+ height: 24px;
+ display: flex;
    justify-content: flex-start;
+   align-items: center;
+  
 }
 
 .left {
    display : flex;
    justify-content: flex-start;
+   align-items: center;
 }
 
 .right {
    display : flex;
    justify-content: flex-end;
+   align-items: center;
 }
 
 .carousel-content__pages {

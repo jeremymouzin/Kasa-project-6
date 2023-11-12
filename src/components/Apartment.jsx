@@ -1,4 +1,4 @@
-import '../styles/Apartman.css'
+import '../styles/Apartment.css'
 
 function Apartment() {
     return (
