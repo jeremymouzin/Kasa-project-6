@@ -1,3 +1,8 @@
+:root {
+    --main-color :#FF6060;
+    --main-font : 'Montserrat', sans serif;
+}
+
 .container {
     display : flex;
     justify-content: space-between;
@@ -12,8 +17,8 @@
 .container__information h1 {
     /* border: 3px solid rgb(0, 255, 13); */
     margin : 0;
-    color: #FF6060;
-    font-family: 'Montserrat', sans serif;
+    color: var(--main-color);
+    font-family: var(--main-font);
     font-size: 36px;
     font-weight: 500;
     line-height: 142.6%;
@@ -21,8 +26,8 @@
 
 .container__information h3 {
     margin : 0;
-    color: #FF6060;
-font-family: 'Montserrat', sans serif;
+    color: var(--main-color);
+font-family: var(--main-font);
 font-size: 18px;
 }
 
@@ -39,8 +44,8 @@ font-size: 18px;
     width: 115px;
     height: 25px;
     border-radius: 10px;
-    background: #FF6060;
-    font-family: 'Montserrat', sans-serif;
+    background: var(--main-color);
+    font-family: var(--main-font);
     font-size: 14px;
     color : white;
     display : flex;
@@ -73,8 +78,8 @@ font-size: 18px;
 }
 
 .container__description__profil p {
-    color: #FF6060;
-font-family: 'Montserrat', sans serif;
+    color: var(--main-color);
+font-family: var(--main-font);
 text-align: right;
 font-size: 18px;
 font-weight: 500;
@@ -92,10 +97,81 @@ margin-left: 1.3rem;
 }
 
 .container-description__stars .fas {
-    color : #FF6060;
+    color : var(--main-color);
 } 
 
 .container-description__stars .grey {
     color : #E3E3E3;
     
 }
+
+
+
+@media (max-width: 792px) {
+ .container {
+    justify-content: space-around;
+    
+ }
+  
+}
+
+@media (max-width: 560px) {
+    .container {
+     display : block;
+
+    }
+
+    .container__description {
+        display : flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin : 0 1rem;
+
+    }
+
+    .container-description__stars {
+       font-size : 15px;
+       gap : 0.2rem;
+
+    }
+
+  .container__description__profil {
+    margin-right : 0rem;
+    gap : 0.3rem;
+  }
+
+    .profil {
+        width: 41px;
+        height: 41px;
+    }
+    
+
+    .container__description__profil p {
+        font-size : 13px;
+      }
+
+.container__information {
+   width : 75%;
+   margin : 0 15px;
+}
+
+.container__information h3 {
+    font-size: 14px;
+}
+
+
+.container__content p {
+ border-radius: 7px;
+ -webkit-border-radius: 7px;
+ -moz-border-radius: 7px;
+ -ms-border-radius: 7px;
+ -o-border-radius: 7px;
+ margin-top : 0.5rem;
+}
+    .container__information h1 {
+       display :none;
+    }
+
+ 
+     
+   }

@@ -16,6 +16,7 @@ function Information()
             <p>Canal</p>
             <p>Paris 10</p>
             </div>
+            
             </div>
             
             <div className='container__description'>
