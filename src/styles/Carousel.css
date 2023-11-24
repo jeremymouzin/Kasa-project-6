@@ -55,6 +55,7 @@
       margin-left: 14px;
       margin-right:14px;
       margin-top: 27px;
+      margin-bottom : 1rem;
 }
 
 .carousel-content .slide {
@@ -63,13 +64,21 @@
  transform:translateY(-45%);
 }
 
-img {
- height: 24px;
+.left img {
+ height: 20px;
  display: flex;
    justify-content: flex-start;
    align-items: center;
   
 }
+
+.right img {
+   height: 20px;
+   display: flex;
+     justify-content: flex-start;
+     align-items: center;
+    
+  }
 
 .left {
    display : flex;
