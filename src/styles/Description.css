@@ -1,0 +1,41 @@
+:root {
+    --main-color :#FF6060;
+    --main-font : 'Montserrat', sans serif;
+     --main-background-color : #f6f6f6;
+ }
+
+ p {
+    margin-block : 0rem;
+ }
+
+ .description {
+    margin: 0 100px;
+ }
+
+ .description__header {
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 0.7rem;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description__header i {
+    font-size : 2rem;
+    cursor : pointer;
+}
+
+ .description__content__text {
+    padding: 1rem;
+    padding-bottom :1rem;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+    border-radius: 0.7rem ;
+    position : relative;
+    top : -0.3rem;
+    z-index: -1;
+    min-height: 82.5%;
+   
+}

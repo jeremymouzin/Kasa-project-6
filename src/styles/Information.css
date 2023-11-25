@@ -6,6 +6,7 @@
 .container {
     display : flex;
     justify-content: space-between;
+    margin-bottom: 1.5rem;
 }
 
 .container__information {
@@ -166,7 +167,6 @@ margin-left: 1.3rem;
  -ms-border-radius: 7px;
  -o-border-radius: 7px;
  margin-top : 0.5rem;
- padding : 0 1rem;
  text-wrap : nowrap;
 }
     .container__information h1 {

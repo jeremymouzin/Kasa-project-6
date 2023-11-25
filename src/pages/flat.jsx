@@ -2,7 +2,7 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Carousel from "../components/Carousel"
 import Information from "../components/Information"
-
+import ApartmentDescription from "../components/ApartmentDescription"
 
 function Flat() {
     
@@ -10,6 +10,7 @@ function Flat() {
       <Header/>
       <Carousel/>
       <Information/>
+      <ApartmentDescription/>
       <Footer/>
       </>
 }
