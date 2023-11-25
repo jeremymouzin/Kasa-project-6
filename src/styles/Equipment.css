@@ -42,3 +42,10 @@
 .description__content li {
     list-style: none;
 }
+
+
+@media (max-width: 900px) {
+    .description { 
+         margin : 1rem 1rem;
+    }
+}

@@ -105,7 +105,7 @@ margin-left: 1.3rem;
 
 
 
-@media (max-width: 792px) {
+@media (max-width: 900px) {
  .container {
     justify-content: space-around;
     
@@ -113,7 +113,7 @@ margin-left: 1.3rem;
   
 }
 
-@media (max-width: 560px) {
+@media (max-width: 900px) {
     .container {
      display : block;
 

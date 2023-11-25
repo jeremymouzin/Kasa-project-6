@@ -2,3 +2,10 @@
     display : flex;
     margin-bottom : 1rem;
 }
+
+@media (max-width: 1123px) {
+    .Apartment__description__flex{ 
+         display : inline;
+         
+    }
+}
