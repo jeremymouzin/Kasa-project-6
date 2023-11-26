@@ -6,16 +6,14 @@ function Description() {
         return (
             <div className='description__about'>
                 <p className='description__header'>
-                    <span>Securité</span>
+                    <span>Sécurité</span>
                     <i className='fas fa-chevron-down'></i>
                 </p>
 
                 <p className='description__content__text'>
-                    Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants.
-                    Au coeur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs
-                    d'affaires. Vous êtes à 1 station de la gare de l'est (7 minutes à pied).
-                    
-                 
+                    La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services.
+                    En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.
+
                 </p>
 
             </div>
