@@ -1,0 +1,34 @@
+.banner__about {
+    background-image: linear-gradient(0deg, 
+    rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("../images/moutain.png");
+    background-position: center;
+    background-size: cover;
+    height : 223px;
+    border-radius: 2rem;
+  }
+
+/************************  RESPONSIVE ******************************/
+
+  @media (max-width: 980px) {
+    
+    .banner__about {
+      padding : 2rem;
+}
+}
+
+@media (max-width: 792px) {
+    
+    .banner__about {
+      padding : 0 2rem;
+      border-radius : 10px;
+      height : 111px;
+}
+}
+
+@media (max-width: 375px) {
+
+  .banner__about 
+  {
+  height: 200px;
+  }
+}

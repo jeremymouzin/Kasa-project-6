@@ -3,6 +3,8 @@
     margin-bottom : 1rem;
 }
 
+/************************  RESPONSIVE ******************************/
+
 @media (max-width: 1123px) {
     .Apartment__description__flex{ 
          display : inline;

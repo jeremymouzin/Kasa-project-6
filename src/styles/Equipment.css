@@ -9,7 +9,7 @@
  }
 
  .description {
-    margin: 0 100px;
+    margin: 1rem 100px;
     flex-basis :50%;
  }
 
@@ -43,6 +43,8 @@
     list-style: none;
 }
 
+
+/************************  RESPONSIVE ******************************/
 
 @media (max-width: 900px) {
     .description { 

@@ -103,6 +103,8 @@ margin-left: 1.3rem;
     
 }
 
+/************************  RESPONSIVE ******************************/
+
 
 
 @media (max-width: 900px) {
@@ -123,7 +125,7 @@ margin-left: 1.3rem;
         display : flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        margin : 0 1rem;
+        margin : 1rem 1rem;
 
     }
 
@@ -162,10 +164,6 @@ margin-left: 1.3rem;
  border-radius: 7px;
  width : 96%;
  height: 23px;
- -webkit-border-radius: 7px;
- -moz-border-radius: 7px;
- -ms-border-radius: 7px;
- -o-border-radius: 7px;
  margin-top : 0.5rem;
  text-wrap : nowrap;
 }
