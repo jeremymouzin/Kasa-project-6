@@ -9,7 +9,8 @@
  }
 
  .description__about {
-    margin: 1rem 100px;
+    margin: 2rem 100px;
+  max-width : 1023px;
     flex-basis :50%;
  }
 
@@ -37,6 +38,22 @@
     position : relative;
     top : -0.3rem;
     z-index: -1;
+}
+
+.description__content__text__about {
+    padding: 1rem;
+    padding-bottom :1rem;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+    border-radius: 0.7rem ;
+    position : relative;
+    top : -0.3rem;
+    z-index: -1;
+    min-height: 82.5%;
+    line-height: 142%;
+  font-size : 24px;
+
+
 }
 
 .description__content li {

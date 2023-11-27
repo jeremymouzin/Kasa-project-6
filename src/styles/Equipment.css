@@ -9,7 +9,6 @@
  }
 
  .description {
-    margin: 1rem 100px;
     flex-basis :50%;
  }
 
@@ -21,6 +20,7 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
+     font-size : 24px;
    
 }
 

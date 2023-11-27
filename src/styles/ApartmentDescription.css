@@ -1,6 +1,9 @@
 .Apartment__description__flex{
     display : flex;
+    gap : 76px;
     margin-bottom : 1rem;
+    max-width : 1240px;
+    margin : auto auto 1rem auto;
 }
 
 /************************  RESPONSIVE ******************************/

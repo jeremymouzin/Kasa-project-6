@@ -32,11 +32,9 @@
     }
 }
 
+@media (max-width: 600px) {
 
-
-
-@media (min-width: 1900px) {
     .Card {
-      padding-left : 15rem;
+     row-gap : 21px;
     }
 }

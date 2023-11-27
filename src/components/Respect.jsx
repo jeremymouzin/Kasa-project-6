@@ -9,7 +9,7 @@ function Description() {
                     <i className='fas fa-chevron-down'></i>
                 </p>
 
-                <p className='description__content__text'>
+                <p className='description__content__text__about'>
                    La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de pertubation du voisinage entraînera une exclusion de notre plateforme.
                     
                  
