@@ -33,7 +33,6 @@ function Collapse() {
                 <details>
                     <summary className='description__header' >
                 <span key ={data.id}>{data.title}</span>
-                <i className='fas fa-chevron-down'></i>
                     </summary>
                      <p className='description__content__text'>
                    {data.content}
