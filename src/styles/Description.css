@@ -1,8 +1,17 @@
-
 :root {
     --main-color :#FF6060;
     --main-font : 'Montserrat', sans serif;
      --main-background-color : #f6f6f6;
+ }
+
+ p {
+    margin-block : 0rem;
+ }
+
+ .description__about {
+    margin: 2rem 100px;
+  max-width : 1023px;
+    flex-basis :50%;
  }
 
  .description__header {
@@ -13,6 +22,8 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
+    margin : 0.2rem 0;
+   
 }
 
 .description__header i {
@@ -20,7 +31,17 @@
     cursor : pointer;
 }
 
- .description__content__text {
+ .description__content {
+    padding: 1rem;
+    color: var(--main-color);
+    background-color: var(--main-background-color);
+    border-radius: 0.7rem ;
+    position : relative;
+    top : -0.3rem;
+    z-index: -1;
+}
+
+.description__content__text {
     padding: 1rem;
     padding-bottom :1rem;
     color: var(--main-color);
@@ -33,7 +54,10 @@
     line-height: 142%;
   font-size : 23px;
  
+}
 
+.description__content li {
+    list-style: none;
 }
 
 details > summary::after {
@@ -41,6 +65,7 @@ details > summary::after {
     font-family: "font Awesome 5 Free";
     font-weight : 900;
     font-size : 28px;
+    cursor : pointer;
 }
 
 details[open] > summary::after {
@@ -48,4 +73,15 @@ details[open] > summary::after {
     font-family: "font Awesome 5 Free";
     font-weight : 900;
     font-size : 28px;
+    cursor : pointer;
+}
+
+
+
+/************************  RESPONSIVE ******************************/
+
+@media (max-width: 900px) {
+    .description__about { 
+         margin : 1rem 1rem;
+    }
 }

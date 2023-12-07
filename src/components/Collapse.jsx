@@ -1,6 +1,3 @@
-import '../styles/Description.css'
-import '../styles/DescriptionAbout.css'
-
 function Collapse() {
     const aboutDatas = [
         {
@@ -25,8 +22,6 @@ function Collapse() {
         }
     ]
         return (
-
-            
             aboutDatas.map((data=> {
                 return ( 
                 <div className='description__about'>

@@ -1,4 +1,4 @@
-import '../styles/Description.css'
+// import '../styles/Description.css'
 import '../styles/ApartmentDescription.css'
 import Collapse from './Collapse'
 
@@ -9,7 +9,6 @@ function ApartmentDescriptionAbout() {
             <div>
            <Collapse/>
             </div>
-          
         )
     
 }

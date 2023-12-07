@@ -1,15 +1,14 @@
-// import '../styles/Description.css'
 import '../styles/Equipment.css'
 
 function Equipment() {
     
         return (
             <div className='description'>
-                <p className='description__header'>
+                <details> 
+                <summary className='description__header'>
                     <span>Équipements</span>
-                    <i className='fas fa-chevron-down'></i>
-                </p>
-
+                </summary>
+            
                 <p className='description__content'>
                    <li>Climatisation</li>
                    <li>Wi-Fi</li>
@@ -19,7 +18,9 @@ function Equipment() {
                    <li>Sèche-cheveux</li>
                    <li>Cintres</li>
                 </p>
+                </details>
             </div>
+            
         )
     
 }

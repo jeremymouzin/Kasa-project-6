@@ -1,7 +1,7 @@
-import '../styles/Description.css'
 import Description from './Description'
-import '../styles/ApartmentDescription.css'
 import Equipment from './Equipment'
+import '../styles/Description.css'
+import '../styles/ApartmentDescription.css'
 
 
 function ApartmentDescription() {
