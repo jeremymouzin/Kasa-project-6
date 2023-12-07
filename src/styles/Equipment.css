@@ -12,7 +12,7 @@
     flex-basis :50%;
  }
 
- .description__header {
+ .description__header__information {
     background-color: var(--main-color);
     color: white;
     padding: 0.2rem 1rem;
@@ -37,6 +37,7 @@
     position : relative;
     top : -0.3rem;
     z-index: -1;
+    min-height: 12rem;
 }
 
 .description__content li {

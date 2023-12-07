@@ -11,8 +11,6 @@ function Description() {
 
                 <p className='description__content__text__about'>
                    La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de pertubation du voisinage entraînera une exclusion de notre plateforme.
-                    
-                 
                 </p>
 
             </div>
