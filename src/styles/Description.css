@@ -18,12 +18,15 @@
     background-color: var(--main-color);
     color: white;
     padding: 0.2rem 1rem;
-    border-radius: 0.7rem;
-    display : flex;
+    border-radius: 0.3rem;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin : 0.2rem 0;
-   
+    margin: 0.2rem 0;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
 }
 
 .description__header i {
@@ -61,7 +64,7 @@
 }
 
 details > summary::after {
-    content: "\f077";
+    content: "\f078";
     font-family: "font Awesome 5 Free";
     font-weight : 900;
     font-size : 28px;
@@ -69,7 +72,7 @@ details > summary::after {
 }
 
 details[open] > summary::after {
-    content: "\f078";
+    content: "\f077";
     font-family: "font Awesome 5 Free";
     font-weight : 900;
     font-size : 28px;

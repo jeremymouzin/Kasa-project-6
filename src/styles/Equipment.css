@@ -8,28 +8,17 @@
     margin-block : 0rem;
  }
 
- .description {
+ .equipment {
     flex-basis :50%;
  }
 
- .description__header__information {
-    background-color: var(--main-color);
-    color: white;
-    padding: 0.2rem 1rem;
-    border-radius: 0.7rem;
-    display : flex;
-    justify-content: space-between;
-    align-items: center;
-     font-size : 24px;
-   
-}
-
-.description__header i {
+ 
+.equipment__header i {
     font-size : 2rem;
     cursor : pointer;
 }
 
- .description__content {
+ .equipment__content {
     padding: 1rem;
     color: var(--main-color);
     background-color: var(--main-background-color);
@@ -40,7 +29,7 @@
     min-height: 12rem;
 }
 
-.description__content li {
+.equipment__content li {
     list-style: none;
 }
 
@@ -48,7 +37,7 @@
 /************************  RESPONSIVE ******************************/
 
 @media (max-width: 900px) {
-    .description { 
+    .equipment { 
          margin : 1rem 1rem;
     }
 }

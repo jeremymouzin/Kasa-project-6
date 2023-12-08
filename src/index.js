@@ -8,7 +8,9 @@ import Home from './pages/home';
 import Flat from './pages/flat';
 
 
+
 const router = createBrowserRouter([
+
 
   {
     path: '/',

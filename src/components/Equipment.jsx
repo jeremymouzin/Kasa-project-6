@@ -3,13 +3,13 @@ import '../styles/Equipment.css'
 function Equipment() {
     
         return (
-            <div className='description'>
+            <div className='equipment'>
                 <details> 
-                <summary className='description__header'>
+                <summary className='equipment__header'>
                     <span>Équipements</span>
                 </summary>
             
-                <p className='description__content'>
+                <p className='equipment__content'>
                    <li>Climatisation</li>
                    <li>Wi-Fi</li>
                    <li>Cuisine</li>
