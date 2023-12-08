@@ -33,7 +33,7 @@ function About() {
       <Header/>
       <Main>
       <BannerAbout/>
- { aboutDatas.map(data=> <Collapse title={data.title} content={data.content}/> )
+ { aboutDatas.map(data=> <Collapse title={data.title} content={data.content} key ={data.id}/> )
  }
       </Main>
       <Footer/>
