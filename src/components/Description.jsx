@@ -1,5 +1,4 @@
-import '../styles/Collapse.css'
-import '../styles/Description.css'
+
 
 function Description({title, content}) {
     

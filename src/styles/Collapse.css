@@ -23,10 +23,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0.2rem 0;
-    -webkit-border-radius: 0.3rem;
-    -moz-border-radius: 0.3rem;
-    -ms-border-radius: 0.3rem;
-    -o-border-radius: 0.3rem;
+ 
 }
 
 .Collapse__header i {
