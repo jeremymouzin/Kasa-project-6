@@ -1,23 +1,20 @@
+import '../styles/Collapse.css'
 import '../styles/Description.css'
 
-function Description() {
+function Description({title, content}) {
     
         return (
-            <div className='equipment'>
+            <div className='Description'>
                <details>
-                    <summary className='equipment__header' >
-                <span>Description</span>
+                    <summary className='Description__header' >
+                <span>{title}</span>
                     </summary>
-                     <p className='equipment__content'>
-                     Vous serez à 50m du canal Saint-martin où vous pourrez pique-niquer l'été et à côté de nombreux bars et restaurants.
-                    Au coeur de Paris avec 5 lignes de métro et de nombreux bus. Logement parfait pour les voyageurs en solo et les voyageurs
-                    d'affaires. Vous êtes à 1 station de la gare de l'est (7 minutes à pied).
-                </p>
+                     <ul className='Description__content'>
+                        {content}
+                </ul>
                 </details>
-
             </div>
         )
-    
 }
 
 export default Description

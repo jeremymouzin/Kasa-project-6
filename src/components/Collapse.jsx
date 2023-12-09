@@ -1,11 +1,11 @@
 function Collapse({title, content}) {
         return (
-                <div className='description__about'>
+                <div className='Collapse__about'>
                 <details>
-                    <summary className='description__header' >
+                    <summary className='Collapse__header' >
                 <span>{title}</span>
                     </summary>
-                     <p className='description__content__text'>
+                     <p className='Collapse__content__text'>
                    {content}
                 </p>
                 </details>

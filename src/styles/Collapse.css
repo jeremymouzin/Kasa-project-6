@@ -8,28 +8,13 @@
     margin-block : 0rem;
  }
 
- .Description {
-    flex-basis :50%;
- }
-
- .Description__content {
-    padding: 1rem;
-    color: var(--main-color);
-    background-color: var(--main-background-color);
-    border-radius: 0.7rem ;
-    position : relative;
-    top : -0.3rem;
-    z-index: -1;
-    min-height: 12rem;
-}
-
-.Description__about {
+ .Collapse__about {
     margin: 2rem 100px;
   max-width : 1023px;
     flex-basis :50%;
  }
 
- .Description__header {
+ .Collapse__header {
     background-color: var(--main-color);
     color: white;
     padding: 0.2rem 1rem;
@@ -44,8 +29,12 @@
     -o-border-radius: 0.3rem;
 }
 
+.Collapse__header i {
+    font-size : 2rem;
+    cursor : pointer;
+}
 
- .Description__content {
+ .Collapse__content {
     padding: 1rem;
     color: var(--main-color);
     background-color: var(--main-background-color);
@@ -55,7 +44,7 @@
     z-index: -1;
 }
 
-.Description__content__text {
+.Collapse__content__text {
     padding: 1rem;
     padding-bottom :1rem;
     color: var(--main-color);
@@ -70,17 +59,8 @@
  
 }
 
-.Description__content li {
+.Collapse__content li {
     list-style: none;
-}
-
- ul {
- margin : 0;
-}
-
-.Description__header i {
-    font-size : 2rem;
-    cursor : pointer;
 }
 
 details > summary::after {
@@ -101,11 +81,10 @@ details[open] > summary::after {
 
 
 
-
 /************************  RESPONSIVE ******************************/
 
 @media (max-width: 900px) {
-    .equipment { 
+    .description__about { 
          margin : 1rem 1rem;
     }
 }
