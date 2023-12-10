@@ -39,7 +39,7 @@
    bottom : 2%;
    color: #FFFF;
    text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--main-font);
    font-size: 18px;
    font-weight: 500;
 }

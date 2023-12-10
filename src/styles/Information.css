@@ -64,14 +64,11 @@ font-size: 18px;
     height: 64px;
     border-radius: 64px;
     background: #C4C4C4;
-    -webkit-border-radius: 64px;
-    -moz-border-radius: 64px;
-    -ms-border-radius: 64px;
-    -o-border-radius: 64px;
+  
 }
 
 .container__description__profil p {
-    color: var(--main-color);
+color: var(--main-color);
 font-family: var(--main-font);
 text-align: right;
 font-size: 18px;
