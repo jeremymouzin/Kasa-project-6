@@ -23,6 +23,8 @@
     justify-content: space-between;
     align-items: center;
     margin: 0.2rem 0;
+    font-size : 24px;
+    min-height : 47px;
 }
 
 .Collapse__header i {
@@ -51,7 +53,7 @@
     z-index: -1;
     min-height: 82.5%;
     line-height: 142%;
-  font-size : 23px;
+  font-size : 24px;
  
 }
 

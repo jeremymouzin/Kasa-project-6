@@ -43,8 +43,7 @@ const datasequipement = [
         return (
             <div className='Apartment__description__flex'>
             <Description title ="Description" content ={datasflat} />
-            <Description title ="Equipements" content ={datasequipement.map(data=>
-                 <li key ={data.id} >{data.content}</li>)}  />
+            <Description title ="Equipements" content ={datasequipement}  />
             </div>
         )
     

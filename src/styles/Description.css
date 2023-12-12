@@ -33,29 +33,29 @@
     background-color: var(--main-color);
     color: white;
     padding: 0.2rem 1rem;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0.3rem 0rem;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    height: 3.3rem;
+    height: 52px;
 }
 
 
  .Description__content {
-    padding: 1rem;
+    padding-top: 2rem;
     color: var(--main-color);
     background-color: var(--main-background-color);
-    border-radius: 0.7rem ;
-    position : relative;
-    top : -0.3rem;
+    border-radius: 0rem 0rem 0.7rem 0.7rem;
+    position: relative;
+    top: -1rem;
     z-index: -1;
-    margin : 0 0rem;
-    font-size : 18px;
+    margin: 0 0rem;
+    font-size: 18px;
+    -webkit-border-radius: 0rem 0rem 0.7rem 0.7rem;
+    -moz-border-radius: 0rem 0rem 0.7rem 0.7rem;
+    -ms-border-radius: 0rem 0rem 0.7rem 0.7rem;
+    -o-border-radius: 0rem 0rem 0.7rem 0.7rem;
 }
 
 .Description__content__text {
@@ -76,13 +76,13 @@
     -o-border-radius: 0.7rem ;
 }
 
-/* .Description__content li {
+.Description__content li {
     list-style: none;
-} */
+}
 
- /* ul {
+ ul {
  margin : 0 1rem;
-} */
+}
 
 .Description__header i {
     font-size : 2rem;
@@ -127,18 +127,14 @@ details[open] > summary::after {
     .Description__header {
         margin: 0.7rem 1rem;
         border-radius:   5px  ;
-        -webkit-border-radius:   5px  ;
-        -moz-border-radius:   5px  ;
-        -ms-border-radius:   5px  ;
-        -o-border-radius:   5px  ;
-        font-size: 18px;
-        height : 2.5rem;
+        font-size: 13px;
+        height : 30px;
 
 }
 
     .Description__content {
         margin : -1rem 1rem;
-        font-size : 15px;
+        font-size : 12px;
     }
 
 }
