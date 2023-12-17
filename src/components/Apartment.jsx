@@ -1,10 +1,16 @@
 import '../styles/Apartment.css'
+import { Link } from 'react-router-dom'
 
-function Apartment() {
+function Apartment({id, title, cover}) {
+  
+
     return (
+        <Link to={`Flat/${id}`} > 
         <div className='Apartment'>
-            <p>Titre de la<br/>location</p>
+            <p>{title}</p>
+            <img src={cover} alt={title} />
             </div>
+            </Link>
     )
 }
 

@@ -7,7 +7,7 @@ import Description from './Description'
 
 function ApartmentDescription() {
     
-const datasflat= "Vous serez à 50m du canal Saint-martin où vous pourrez pique niquer l'été et à côté de nombreux bars et restaurants.Au coeur de Paris avec 5 lignes et de bus. Logement parfait pour les voyageurs en solo et les voyages d'affaires. Vous êtes à une station de la gare de l'est (7 minutes à pied)"
+const datasflat= "Vous serez à 50m du canal Saint-martin où vous pourrez pique niquer l'été et à côté de nombreux bars et restaurants. Au coeur de Paris avec 5 lignes et de bus. Logement parfait pour les voyageurs en solo et les voyages d'affaires. Vous êtes à une station de la gare de l'est (7 minutes à pied)."
 const datasequipement = [
     {
         id : 1,
