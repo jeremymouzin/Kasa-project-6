@@ -3,8 +3,6 @@
     width: 340px;
     height: 340px;
     border-radius: 1rem;
-    color: rgba(255, 255, 255, 1);
-    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     position: relative;
 }
@@ -16,13 +14,12 @@
     left : 20px;
     right : 20px;
     font-size: 18px;
-    z-index: 1;
-
+    color: rgba(255, 255, 255, 1);
 }
 
 .Apartment img {
     object-fit: cover;
-    object-position: right left;
+    object-position: right ;
     width: inherit;
     height: inherit;
     border-radius:inherit;
