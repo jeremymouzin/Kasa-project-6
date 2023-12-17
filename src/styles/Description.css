@@ -52,10 +52,7 @@
     z-index: -1;
     margin: 0 0rem;
     font-size: 18px;
-    -webkit-border-radius: 0rem 0rem 0.7rem 0.7rem;
-    -moz-border-radius: 0rem 0rem 0.7rem 0.7rem;
-    -ms-border-radius: 0rem 0rem 0.7rem 0.7rem;
-    -o-border-radius: 0rem 0rem 0.7rem 0.7rem;
+
 }
 
 .Description__content__text {
@@ -70,10 +67,7 @@
     min-height: 82.5%;
     line-height: 142%;
     font-size: 23px;
-    -webkit-border-radius: 0.7rem ;
-    -moz-border-radius: 0.7rem ;
-    -ms-border-radius: 0.7rem ;
-    -o-border-radius: 0.7rem ;
+
 }
 
 .Description__content li {

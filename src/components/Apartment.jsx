@@ -7,7 +7,7 @@ function Apartment({id, title, cover}) {
     return (
         <Link to={`Flat/${id}`} > 
         <div className='Apartment'>
-            <p>{title}</p>
+            <h3>{title}</h3>
             <img src={cover} alt={title} />
             </div>
             </Link>
