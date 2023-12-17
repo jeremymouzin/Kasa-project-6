@@ -14,12 +14,12 @@
     left : 20px;
     right : 20px;
     font-size: 18px;
-    color: rgba(255, 255, 255, 1);
+    color :rgba(255,255,255,1)
 }
 
 .Apartment img {
     object-fit: cover;
-    object-position: right ;
+    object-position: bottom top ;
     width: inherit;
     height: inherit;
     border-radius:inherit;
