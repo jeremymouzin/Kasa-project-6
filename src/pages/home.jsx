@@ -1,8 +1,9 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import Banner from "../components/Banner"
-import Card from "../components/Card"
+import Gallery from "../components/Gallery"
 import Main from "../components/Main"
+import datasFlat from '../assets/data.json'
 
 function Home() {
     
@@ -10,7 +11,7 @@ function Home() {
       <Header/>
       <Main>
       <Banner/>
-      <Card/>
+      <Gallery data={datasFlat} />
       </Main>
       <Footer/>
       </>

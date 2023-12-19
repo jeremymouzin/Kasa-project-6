@@ -1,12 +1,12 @@
-import '../styles/Apartment.css'
+import '../styles/Flat.css'
 import { Link } from 'react-router-dom'
 
-function Apartment({id, title, cover}) {
+function Flat({id, title, cover}) {
   
 
     return (
         <Link to={`Flat/${id}`} > 
-        <div className='Apartment'>
+        <div className='flat'>
             <h3>{title}</h3>
             <img src={cover} alt={title} />
             </div>
@@ -14,4 +14,4 @@ function Apartment({id, title, cover}) {
     )
 }
 
-export default Apartment
+export default Flat

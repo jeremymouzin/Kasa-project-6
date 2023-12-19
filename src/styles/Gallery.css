@@ -1,5 +1,5 @@
 
-.Card {
+.gallery {
     display: grid;
  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     row-gap: 50px;
@@ -17,7 +17,7 @@
 
 @media (max-width: 1070px) {
 
-    .Card {
+    .gallery {
         grid-template-columns:340px;
         width : 100%;
     }
@@ -25,7 +25,7 @@
 
 @media (max-width: 792px) {
 
-    .Card {
+    .gallery {
         background-color : transparent;
      margin-top : 0;
      padding : 22px 20px;
@@ -34,7 +34,7 @@
 
 @media (max-width: 600px) {
 
-    .Card {
+    .gallery {
      row-gap : 21px;
     }
 }
