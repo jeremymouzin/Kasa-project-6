@@ -7,8 +7,11 @@ function Flat({id, title, cover}) {
     return (
         <Link to={`Flat/${id}`} > 
         <div className='flat'>
-            <h3>{title}</h3>
+            <div className='flat__stack'>
+            </div>
+        <h3>{title}</h3>
             <img src={cover} alt={title} />
+
             </div>
             </Link>
     )
