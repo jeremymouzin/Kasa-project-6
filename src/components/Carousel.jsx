@@ -2,10 +2,17 @@ import '../styles/Carousel.css'
 import arrowLeft  from '../images/chevron_carousel_left.png'
 import arrowRight  from '../images/chevron_carousel_right.png'
  import React, { useState } from 'react';
+import { useParams } from 'react-router-dom';
 
-function Carousel() {
+
+function Carousel({data}) {
  
+const params = useParams() 
+console.log(JSON.stringify(params))
 
+
+console.log(data.map((data)=> console.log(JSON.stringify(data.id))))
+ 
   const [index, setIndex] = useState(1);
   const length = 3;
   
