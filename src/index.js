@@ -6,9 +6,7 @@ import ErrorPage from './components/Error';
 import About from './pages/about';
 import Home from './pages/home';
 import Flat from './pages/flat';
-import datasFlat from './assets/data.json'
 
-const data = datasFlat.map(data => console.log(data))
 
 const router = createBrowserRouter(
 
@@ -33,7 +31,7 @@ const router = createBrowserRouter(
     },
 
     {
-      path: `/flat/:${data.id}`,
+      path: `/flat/:id`,
       element: <Flat />
     }
 

@@ -1,28 +1,28 @@
 import '../styles/Information.css'
 
 
-function Information() 
+function Information({title, location, rating, name, photo}) 
 
 {
         return (
             <div className='container'>
 
              <div className="container__information">
-            <h1>Cozy loft on the Canal Saint-Martin</h1>
-            <h3>Paris, Île-de-France</h3>
+            <h1>{title}</h1>
+            <h3>{location}</h3>
 
             <div className="container__content">
             <p>Cozy</p>
             <p>Canal</p>
             <p>Paris 10</p>
             </div>
-            
+        
             </div>
             
             <div className='container__description'>
                 <div className='container__description__profil'>
-                <p>Alexandre<br/>Dumas</p>
-                <div className='profil'></div>
+                <p>{name[0]}<br/>{name[1]}</p>
+                <img src={photo} alt="" className='profil' />
                 </div>
 
                 <div className='container-description__stars'>
