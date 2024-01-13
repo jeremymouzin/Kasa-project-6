@@ -10,17 +10,18 @@ import { useParams } from "react-router-dom"
 
 function Flat() {
     
-  const params = useParams() //recupération du paramètre dans l'url 
-console.log(params)
+const params = useParams() //recupération du paramètre dans l'url 
 
 const flat = data.find((data)=> params.id === data.id) //ciblage l'id de l'url correspondant à celui des données 
-console.log(flat.host.name.split(' '))
+console.log(flat)
 
 
     return <> 
+
+   
       <Header/>
       <Carousel pictures={flat.pictures} />    
-      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tag={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} />
+      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tags={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} />
       <ApartmentDescription/>
       <Footer/>
       </>

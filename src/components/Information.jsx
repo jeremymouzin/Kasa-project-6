@@ -1,7 +1,7 @@
 import '../styles/Information.css'
 
 
-function Information({title, location,name, tag, photo, rating}) 
+function Information({title, location,name, tags, photo, rating}) 
 
 {
         return (
@@ -12,7 +12,7 @@ function Information({title, location,name, tag, photo, rating})
             <h3>{location}</h3>
  
         <div className="container__content">
-        {tag}
+        {tags}
         </div>
     
             </div>
