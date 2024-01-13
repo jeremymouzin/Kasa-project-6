@@ -14,12 +14,13 @@ function Flat() {
 console.log(params)
 
 const flat = data.find((data)=> params.id === data.id) //ciblage l'id de l'url correspondant à celui des données 
+console.log(flat.host.name.split(' '))
 
 
     return <> 
       <Header/>
       <Carousel pictures={flat.pictures} />    
-      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} photo={flat.host.picture} />
+      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tag={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} />
       <ApartmentDescription/>
       <Footer/>
       </>

@@ -1,7 +1,7 @@
 import '../styles/Information.css'
 
 
-function Information({title, location, rating, name, photo}) 
+function Information({title, location,name, tag, photo, rating}) 
 
 {
         return (
@@ -10,13 +10,11 @@ function Information({title, location, rating, name, photo})
              <div className="container__information">
             <h1>{title}</h1>
             <h3>{location}</h3>
-
-            <div className="container__content">
-            <p>Cozy</p>
-            <p>Canal</p>
-            <p>Paris 10</p>
-            </div>
-        
+ 
+        <div className="container__content">
+        {tag}
+        </div>
+    
             </div>
             
             <div className='container__description'>
