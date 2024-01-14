@@ -4,7 +4,7 @@ import '../styles/Information.css'
 function Information({title, location,name, tags, photo, rating}) 
 
 {
-    const score = [1,2,3,4,5]
+    const score = [1,2,3,4,5] //création d'un tableau qui sert de compteur pour les ratings 
    
         return (
             <div className='container'>
@@ -21,7 +21,7 @@ function Information({title, location,name, tags, photo, rating})
             <div className='container__description'>
                 <div className='container__description__profil'>
                 <p>{name[0]}<br/>{name[1]}</p>
-                <img src={photo} alt="" className='profil' />
+                <img src={photo} alt="" className='profil' /> 
                 </div>
 
                 <div className='container-description__stars'>
