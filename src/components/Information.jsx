@@ -29,10 +29,7 @@ function Information({title, location,name, tags, photo, rating})
 ))}</div>
      </div>
 
- </div>
- 
-           
-        )
+ </div>)
 
 }
 
