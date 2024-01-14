@@ -4,6 +4,8 @@ import '../styles/Information.css'
 function Information({title, location,name, tags, photo, rating}) 
 
 {
+    const score = [1,2,3,4,5]
+   
         return (
             <div className='container'>
 
@@ -14,7 +16,6 @@ function Information({title, location,name, tags, photo, rating})
         <div className="container__content">
         {tags}
         </div>
-    
             </div>
             
             <div className='container__description'>
@@ -24,16 +25,13 @@ function Information({title, location,name, tags, photo, rating})
                 </div>
 
                 <div className='container-description__stars'>
-                    <div ><i className="fas fa-star"></i></div> 
-                    <div><i className="fas fa-star"></i></div>
-                     <div><i className="fas fa-star"></i></div>
-                     <div><i className="fas fa-star grey"></i></div>
-                     <div><i className="fas fa-star grey"></i></div>
-                </div>
+             {score.map((score) => ( <div>{ rating >= score ? <div ><i className="fas fa-star"></i></div> : <div><i className="fas fa-star grey"></i></div>}</div>
+))}</div>
+     </div>
 
-            </div>
+ </div>
  
-            </div>
+           
         )
 
 }
