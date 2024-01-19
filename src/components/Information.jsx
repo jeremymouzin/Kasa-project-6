@@ -1,7 +1,7 @@
 import '../styles/Information.css'
 
 
-function Information({title, location, name, tags, photo, rating}) 
+function Information({title, location, name, tags, photo, rating,}) 
 
 {
     const score = [1,2,3,4,5] //création d'un tableau qui sert de compteur pour les ratings 
