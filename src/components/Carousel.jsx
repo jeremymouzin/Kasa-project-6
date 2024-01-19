@@ -36,7 +36,7 @@ function Carousel({pictures}) {
     </>
  } </div>
 
-  } 
+  }
 
    
   
