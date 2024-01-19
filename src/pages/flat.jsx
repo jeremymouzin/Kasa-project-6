@@ -13,7 +13,7 @@ function Flat() {
 const params = useParams() //recupération de l'id dans l'url 
 
 const flat = data.find((data)=> params.id === data.id) //ciblage de l'id de l'url correspondant à celui du fichier JSON 
-console.log(flat)
+console.log(flat.tags)
 
 
     return <> 
@@ -21,7 +21,7 @@ console.log(flat)
    
       <Header/>
       <Carousel pictures={flat.pictures} />    
-      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tags={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} id={flat.id}  />
+      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tags={flat.tags} photo={flat.host.picture} id={flat.id}  />
       <ApartmentDescription description={flat.description} equipment={flat.equipments} />
       <Footer/>
       </>
