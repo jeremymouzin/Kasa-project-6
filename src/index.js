@@ -22,6 +22,7 @@ const router = createBrowserRouter(
     {
       path: "/about",
       element: <About />
+
     },
 
     {
@@ -33,8 +34,7 @@ const router = createBrowserRouter(
     {
       path: `/flat/:id`,
       element: <Flat />
-    }
-
+    },
 
   ])
 

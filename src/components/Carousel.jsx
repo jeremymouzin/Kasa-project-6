@@ -17,16 +17,34 @@ function Carousel({pictures}) {
   const newIndex = index + 1;
   setIndex(newIndex >= length ? 0 : newIndex);
   };
+
+ return <div className='carousel-content'> 
   
-    return (
+  {length===1 ? <img src= {pictures[index]} alt="" className='pictures'/>
+ : 
+ <>
+ <img src={pictures[index]} alt="" className='pictures' />
+ <div className="slide left" onClick={handlePrevious}>
+  <img src={arrowLeft} alt="arrowLeft" />
+  </div>
+
+  <div className='slide right' onClick={handleNext}>
+    <img src={arrowRight} alt="arrowRight" />
+    </div>
+
+    <div className='carousel-content__pages'>{index + 1}/{pictures.length} </div>
+    </>
+ } </div>
+
+  } 
+
+   
+  
+  
+  
+
           
-            <div className='carousel-content'>
-              <img src= {pictures[index]} alt="" className='pictures'/>
-             <div className = "slide left" onClick ={handlePrevious} ><img src=  {arrowLeft}  alt="arrowLeft" /></div>
-            <div className='slide right' onClick= {handleNext}><img src=  {arrowRight}  alt="arrowRight" /></div>
-            <div className='carousel-content__pages'>{index+1}/{pictures.length} </div>
-            </div>  
-  ) }
+        
  
 
 

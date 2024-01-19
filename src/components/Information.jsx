@@ -1,7 +1,7 @@
 import '../styles/Information.css'
 
 
-function Information({title, location, name, tags, photo, rating, id}) 
+function Information({title, location, name, tags, photo, rating}) 
 
 {
     const score = [1,2,3,4,5] //création d'un tableau qui sert de compteur pour les ratings 
@@ -14,7 +14,7 @@ function Information({title, location, name, tags, photo, rating, id})
             <h3>{location}</h3>
  
         <div className="container__content">
-        { tags.map((flat)=> { return <p >{flat}</p>})}
+        {tags.map((flat, index)=> { return <p key={index}>{flat}</p>})}  
         </div>
             </div>
             
@@ -25,12 +25,12 @@ function Information({title, location, name, tags, photo, rating, id})
                 </div>
 
                 <div className='container-description__stars'>
-             {score.map((score) => ( <div>{ rating >= score ? <div ><i className="fas fa-star"></i></div> : <div><i className="fas fa-star grey"></i></div>}</div>
+             {score.map((score, index) => ( <div key={index}>{ rating >= score ? <div ><i className="fas fa-star"></i></div> : <div><i className="fas fa-star grey"></i></div>}</div>
 ))}</div>
      </div>
-
+    
  </div>)
+ }
 
-}
 
 export default Information
