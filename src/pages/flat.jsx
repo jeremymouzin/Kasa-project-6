@@ -21,7 +21,7 @@ console.log(flat)
    
       <Header/>
       <Carousel pictures={flat.pictures} />    
-      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tags={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} id= {flat.id}  />
+      <Information title={flat.title} location={flat.location} rating={flat.rating} name={flat.host.name.split(' ')} tags={flat.tags.map((flat)=> { return <p>{flat}</p>})} photo={flat.host.picture} id={flat.id}  />
       <ApartmentDescription description={flat.description} equipment={flat.equipments} />
       <Footer/>
       </>
