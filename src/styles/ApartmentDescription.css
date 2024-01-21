@@ -7,8 +7,15 @@
 }
 
 /************************  RESPONSIVE ******************************/
+@media (max-width : 1276px) {
 
-@media (max-width: 1123px) {
+.Apartment__description__flex {
+padding: 0rem 1rem;
+}   
+}
+
+
+@media (max-width: 970px) {
     .Apartment__description__flex{ 
          display : inline;
          

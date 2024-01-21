@@ -61,7 +61,7 @@
     list-style: none;
 }
 
-details > summary::after {
+/* details > summary::after {
     content: "\f078";
     font-family: "font Awesome 5 Free";
     font-weight : 900;
@@ -75,7 +75,7 @@ details[open] > summary::after {
     font-weight : 900;
     font-size : 28px;
     cursor : pointer;
-}
+} */
 
 
 

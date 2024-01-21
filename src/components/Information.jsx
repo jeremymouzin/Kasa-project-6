@@ -14,7 +14,7 @@ function Information({title, location, name, tags, photo, rating})
             <h3>{location}</h3>
  
         <div className="container__content">
-        {tags.map((flat, index)=> { return <p key={index}>{flat}</p>})}  
+        <ul>{tags.map((flat, index)=> {return <li key={index}>{flat}</li>} )}</ul>  
         </div>
             </div>
             

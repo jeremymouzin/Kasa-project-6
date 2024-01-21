@@ -56,13 +56,19 @@
 
 /***************RESPONSIVE-****************************/
 
+@media (max-width: 1276px) {
+.header {
+    margin-left : 1rem;
+    margin-right: 1rem;
+}
+}
+
 @media (max-width: 792px) {
 
     .header {
         height: 47px;
         margin-top: 20px;
-        margin-left : 20px;
-        margin-right : 20px;
+        margin-right : 4px;
         margin-bottom : 16px; 
     }
 

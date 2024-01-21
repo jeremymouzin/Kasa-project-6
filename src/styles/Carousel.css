@@ -20,6 +20,7 @@
     margin-right :inherit;
     margin-bottom : inherit;
    width: 100%;
+
 }
 
 .carousel-content .slide {
@@ -57,7 +58,7 @@
  
 /************************  RESPONSIVE ******************************/
 
-@media (max-width: 1300px) 
+@media (max-width: 1276px) 
 
 {
    .carousel-content {

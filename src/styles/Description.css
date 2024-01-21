@@ -112,19 +112,21 @@ details[open] > summary::after {
 
 
 /************************  RESPONSIVE ******************************/
+@media (max-width : 970px) {
+    .Description__header {
+           margin :0.3rem 1rem;
+           height: 35px;
+    }
+    }
+
+
 
 @media (max-width: 900px) {
     .equipment { 
          margin : 1rem 1rem;
     }
 
-    .Description__header {
-        margin: 0.7rem 1rem;
-        border-radius:   5px  ;
-        font-size: 13px;
-        height : 30px;
 
-}
 
     .Description__content {
         margin : -1rem 1rem;

@@ -18,7 +18,15 @@
   font-family: var(--font-page);
 }
 
-/***************RESPONSIVE-****************************/
+/*
+**************RESPONSIVE-****************************/
+
+@media (max-width: 380px)
+{
+  .banner {
+   margin : 0rem -0.5rem;
+  }
+}
 
 @media (max-width: 980px) {
     

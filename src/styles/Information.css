@@ -21,6 +21,7 @@
     font-size: 31px;
     font-weight: 500;
     line-height: 142.6%;
+    text-wrap: nowrap;
 }
 
 .container__information h3 {
@@ -30,12 +31,16 @@ font-family: var(--main-font);
 font-size: 18px;
 }
 
-.container__content {
+.container__content ul {
     gap : 10px;
     display:flex;
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+    
 }
 
-.container__content p {
+.container__content li {
     width: 138px; 
     height: 25px;
     border-radius: 10px;
@@ -46,13 +51,16 @@ font-size: 18px;
     display : flex;
     justify-content: center;
     align-items: center;
-    margin-top : 2rem;
+    margin-top : 1rem;
+    padding: 0 5rem;  
+    
 }
 
 
 .container__description__profil {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
+    gap: 1rem;
 }
 
 
@@ -94,12 +102,19 @@ margin-left: 1.3rem;
 }
 
 /************************  RESPONSIVE ******************************/
+@media (max-width: 1276px)
 
+{
+    .container {
+        padding : 0 1rem;
+    }
 
+}
 
 @media (max-width: 950px) {
  .container {
     justify-content: space-around;
+    padding : 0;
     
  }
   
@@ -149,12 +164,14 @@ margin-left: 1.3rem;
     
 }
 
-.container__content p {
+.container__content li {
  border-radius: 7px;
+ font-size: 13px;
  width : 96%;
  height: 23px;
  margin-top : 0.5rem;
  text-wrap : nowrap;
+ padding: 0 0.4rem;
 }
     .container__information h1 {
        font-size : 0;
