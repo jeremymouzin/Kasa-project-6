@@ -14,7 +14,7 @@ const display = ()=> {
 
                 <div onClick={display} className='Collapse__header' >
                 <span>{title}</span>   
-                {open ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-down"></i>   }
+                {open ? <i class="fas fa-chevron-up"></i> : <i class="fas fa-chevron-down"></i> }
                 </div>
                  {open ? <p className='Collapse__content__text'>{content}</p>: null }
             </div>)}
