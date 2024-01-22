@@ -8,33 +8,40 @@ import Home from './pages/home';
 import Flat from './pages/flat';
 
 
+
 const router = createBrowserRouter(
+
 
   [
 
-
     {
       path: '/',
+      element: <Home />
+    },
+
+    {
+      path: '/home',
       element: <Home />,
-      errorElement: <ErrorPage />,
     },
 
     {
       path: "/about",
-      element: <About />
+      element: <About />,
 
     },
 
     {
-      path: "/flat",
-      element: <Flat />
-
+      path: 'flat/',
+      element: <ErrorPage />
     },
 
     {
       path: `/flat/:id`,
-      element: <Flat />
+      element: <Flat />,
+      errorElement: <ErrorPage />
     },
+
+
 
   ])
 

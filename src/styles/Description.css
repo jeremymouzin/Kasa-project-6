@@ -83,7 +83,7 @@
     cursor : pointer;
 }
 
-details > summary::after {
+/* details > summary::after {
     content: "\f078";
     font-family: "font Awesome 5 Free";
     font-weight : 900;
@@ -97,7 +97,7 @@ details[open] > summary::after {
     font-weight : 900;
     font-size : 28px;
     cursor : pointer;
-}
+} */
 
 
 .Description__list {
@@ -114,7 +114,7 @@ details[open] > summary::after {
 /************************  RESPONSIVE ******************************/
 @media (max-width : 970px) {
     .Description__header {
-           margin :0.3rem 1rem;
+           margin :0.3rem 1rem 0.7rem 1rem;
            height: 35px;
     }
     }
