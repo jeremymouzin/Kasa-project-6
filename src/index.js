@@ -31,17 +31,15 @@ const router = createBrowserRouter(
     },
 
     {
-      path: 'flat/',
-      element: <ErrorPage />
-    },
-
-    {
       path: `/flat/:id`,
       element: <Flat />,
       errorElement: <ErrorPage />
     },
 
-
+    {
+      path: '*',
+      element: <ErrorPage />
+    }
 
   ])
 

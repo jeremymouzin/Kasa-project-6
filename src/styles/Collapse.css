@@ -61,23 +61,6 @@
     list-style: none;
 }
 
-/* details > summary::after {
-    content: "\f078";
-    font-family: "font Awesome 5 Free";
-    font-weight : 900;
-    font-size : 28px;
-    cursor : pointer;
-}
-
-details[open] > summary::after {
-    content: "\f077";
-    font-family: "font Awesome 5 Free";
-    font-weight : 900;
-    font-size : 28px;
-    cursor : pointer;
-} */
-
-
 
 /************************  RESPONSIVE ******************************/
 

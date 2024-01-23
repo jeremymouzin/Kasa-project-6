@@ -58,8 +58,8 @@
 
 @media (max-width: 1276px) {
 .header {
-    margin-left : 1rem;
-    margin-right: 1rem;
+    margin-left : 20px;
+    margin-right: 20px;
 }
 }
 
@@ -68,7 +68,6 @@
     .header {
         height: 47px;
         margin-top: 20px;
-        margin-right : 4px;
         margin-bottom : 16px; 
     }
 
