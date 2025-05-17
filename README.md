@@ -71,7 +71,6 @@ The frontend should be built using the following JSON data source:
 
 - Live Demo: [https://sihambordjah.github.io/kasa/](https://sihambordjah.github.io/kasa/)
 
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
