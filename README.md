@@ -1,7 +1,7 @@
 
 # Kasa – Your Home Away from Home
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="100" alt="React Logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="150" alt="React Logo" />
 
 
 ## Overview
