@@ -10,12 +10,6 @@ Kasa is a property rental web app that lets users browse, filter, and book uniqu
 
 ---
 
-## Overview
-
-Kasa is a property rental web app that lets users browse, filter, and book unique accommodations. This project demonstrates how to build a single-page application with React, leveraging client-side routing and modular component design.
-
----
-
 ##  Key Features
 
 - **Home Page**: Lists all available properties with thumbnail cards.
