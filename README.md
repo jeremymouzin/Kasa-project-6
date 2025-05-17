@@ -1,3 +1,13 @@
+
+# Kasa
+
+<img alt="Simulation de rendu du site Kasa" src="https://github.com/Patariom/Kasa/blob/main/public/cover%20img/220207_KasaMockup.png?raw=true">
+
+This repo contains the Kasa web app.  
+Kasa is an 10-years old agency specialized in the private rental. They recently decided to upgrade their web app using Node-Js for the back-end and React-Js for the front-end.
+This repo is focused on the front-end.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
