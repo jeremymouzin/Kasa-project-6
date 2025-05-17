@@ -1,15 +1,32 @@
 
-# Front-End Developer Training
+# Kasa 
 
-## Project 7 – Kasa
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="64" alt="React Logo" />
 
-### Context  
-Kasa is a company specialized in peer-to-peer apartment rentals for nearly 10 years. They want to completely redesign their website to improve user experience and modernize the interface.
+# Kasa 
 
-### Project Objectives  
-Develop the entire application and its components using **React**, following the [Figma design mockups](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3-0&t=orFKblhMVkLYD4Ie-0).  
-Create reusable components, including tabs and a photo carousel.
+---
 
+## Overview
+
+Kasa is a property rental web app that lets users browse, filter, and book unique accommodations. This project demonstrates how to build a single-page application with React, leveraging client-side routing and modular component design.
+
+---
+
+## Overview
+
+Kasa is a property rental web app that lets users browse, filter, and book unique accommodations. This project demonstrates how to build a single-page application with React, leveraging client-side routing and modular component design.
+
+---
+
+##  Key Features
+
+- **Home Page**: Lists all available properties with thumbnail cards.
+- **Property Details**: Dynamic routes to view full details for each listing (images carousel, description, host info, amenities).
+- **Search & Filters**: Filter listings by location, price range, and rating.
+- **Favorites**: Users can “heart” listings to save them for later (stateful UI).
+- **404 Page**: Custom “Not Found” page for unmatched routes.
+- 
 ### Backend / Data  
 The frontend should be built using the following JSON data source:  
 [https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json)
