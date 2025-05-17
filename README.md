@@ -1,11 +1,67 @@
 
-# Kasa
+# Front-End Developer Training
 
-<img alt="Simulation de rendu du site Kasa" src="https://github.com/Patariom/Kasa/blob/main/public/cover%20img/220207_KasaMockup.png?raw=true">
+## Project 7 – Kasa
 
-This repo contains the Kasa web app.  
-Kasa is an 10-years old agency specialized in the private rental. They recently decided to upgrade their web app using Node-Js for the back-end and React-Js for the front-end.
-This repo is focused on the front-end.
+### Context  
+Kasa is a company specialized in peer-to-peer apartment rentals for nearly 10 years. They want to completely redesign their website to improve user experience and modernize the interface.
+
+### Project Objectives  
+Develop the entire application and its components using **React**, following the [Figma design mockups](https://www.figma.com/file/bAnXDNqRKCRRP8mY2gcb5p/UI-Design-Kasa-FR?node-id=3-0&t=orFKblhMVkLYD4Ie-0).  
+Create reusable components, including tabs and a photo carousel.
+
+### Backend / Data  
+The frontend should be built using the following JSON data source:  
+[https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/Front-End+V2/P9+React+1/logements.json)
+
+---
+
+### Requirements
+
+#### Functional Specifications
+
+1. **Gallery Photo Carousel**  
+   - When the user clicks “Previous” on the first image, the gallery displays the last image.  
+   - When the user clicks “Next” on the last image, the gallery displays the first image.  
+   - If there is only one image, the “Next” and “Previous” buttons should be hidden.
+
+2. **Gallery Layout**  
+   - The gallery should always maintain the same height as specified in the Figma design.  
+   - Images must be cropped and centered within the frame to fit this height.
+
+3. **Collapse Components**  
+   - Collapses are closed by default when the page loads.  
+   - Clicking an open Collapse closes it; clicking a closed Collapse opens it.
+
+#### Technical Specifications
+
+1. Break the UI into modular, reusable React components.  
+2. Maintain a clear and logical project file structure.  
+3. Use event handling efficiently within components.  
+4. Render lists by iterating over data arrays.  
+5. Pass data between components using props.  
+6. Implement a 404 page for unknown routes or invalid URL parameters (i.e., IDs not in the dataset).
+
+---
+
+### Technologies Used
+
+- HTML5  
+- CSS3 / SASS  
+- JavaScript (ES6+)  
+- React  
+
+### Skills Acquired
+
+- Building client-side routing with React Router  
+- Initializing and structuring a React application  
+- Creating reusable and dynamic React components  
+
+---
+
+### Additional Information
+
+- Live Demo: [https://sihambordjah.github.io/kasa/](https://sihambordjah.github.io/kasa/)
 
 
 # Getting Started with Create React App
