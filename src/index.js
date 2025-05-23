@@ -15,23 +15,23 @@ const router = createBrowserRouter(
   [
 
     {
-      path: '/',
+      path: '/Kasa-project-6',
       element: <Home />
     },
 
     {
-      path: '/home',
+      path: '/Kasa-project-6/home',
       element: <Home />,
     },
 
     {
-      path: "/about",
+      path: "/Kasa-project-6/about",
       element: <About />,
 
     },
 
     {
-      path: `/flat/:id`,
+      path: `/Kasa-project-6/flat/:id`,
       element: <Flat />,
       errorElement: <ErrorPage />
     },

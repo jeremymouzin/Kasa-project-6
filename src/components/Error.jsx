@@ -14,7 +14,7 @@ export default function ErrorPage() {
       <section id="error__page">
         <span className="error__number">404</span>
         <h1 className="error__text">Oups! La page que <span className="error__span">vous demandez n'existe pas.</span></h1>
-        <Link className='error__link' to='/'>Retourner sur la page d'accueil</Link>
+        <Link className='error__link' to='/Kasa-project-6'>Retourner sur la page d'accueil</Link>
       </section>
       </>
     );

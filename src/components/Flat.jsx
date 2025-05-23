@@ -5,7 +5,7 @@ function Flat({id, title, cover}) {
   
 
     return (
-        <Link to={`Flat/${id}`} > 
+        <Link to={`/Kasa-project-6/Flat/${id}`} > 
         <div className='flat'>
             <div className='flat__stack'>
             </div>

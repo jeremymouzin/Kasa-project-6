@@ -11,11 +11,11 @@ function Header() {
   <nav className="nav__header">
     <ul className="nav__link">
         
-      <li><NavLink className="sign" to="/"> 
+      <li><NavLink className="sign" to="/Kasa-project-6/"> 
         Accueil 
         </NavLink></li> 
 
-     <li><NavLink className="sign__up" to="/about">
+     <li><NavLink className="sign__up" to="/Kasa-project-6/about">
         A Propos
       </NavLink></li> 
     </ul>
